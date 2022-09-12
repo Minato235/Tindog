@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <style>
+
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <center>
+        <h2 style="color:orange;">Book a Call </h2>
+        <p>Our represtives call you with in a hour</p>
+    </center>
+    <hr>
+
+    <form action="#" onsubmit="onSignup()">
+        <label>Name</label>
+        <input type="text" id="name" value="aash" required />
+        <br><br>
+        <label>Email</label>
+        <input type="text" id="mail" value="sh" required />
+        <br><br>
+        <label>Phone</label>
+        <input type="text" name="phone" required /><br><br>
+        <label>Time</label>
+        <input type="time" id="appt" name="appt" min="09:00" max="18:00"> <br><br>
+        <button>Get a Call</button>
+
+
+    </form>
+    <script>
+        function onSignup() {
+            const name = document.getElementById("name").value;
+            const mail = document.getElementById("mail").value;
+            console.log(mail);
+            console.log(name);
+
+
+
+        }
+    </script>
+</body>
+
+</html>
